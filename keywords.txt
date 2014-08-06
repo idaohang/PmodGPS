@@ -1,0 +1,59 @@
+#######################################
+# Syntax Coloring Map For IOShieldOLED
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+STATE	KEYWORD1
+NMEA	KEYWORD1
+SATELLITE	KEYWORD1
+GGA_DATA	KEYWORD1
+GSA_DATA	KEYWORD1
+GSV_DATA	KEYWORD1
+RMC_DATA	KEYWORD1
+VTG_DATA	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getGGA	KEYWORD2
+getGSA	KEYWORD2
+getGSV	KEYWORD2
+getRMC	KEYWORD2
+getVTG	KEYWORD2
+GPSinit	KEYWORD2
+getData	KEYWORD2
+isFixed	KEYWORD2
+getTime	KEYWORD2
+getLatitude	KEYWORD2
+getLongitude	KEYWORD2
+getNumSats	KEYWORD2
+getPDOP	KEYWORD2
+getAltitudeString	KEYWORD2
+getAltitude	KEYWORD2
+getSatelliteInfo	KEYWORD2
+getSpeedKnots	KEYWORD2
+getSpeedKM	KEYWORD2
+getHeading	KEYWORD2
+getDate	KEYWORD2
+getDateString	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+myGPS	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+_3DFpin	LITERAL1
+_1PPSpin	LITERAL1
+RSTpin	LITERAL1
+btn1	LITERAL1
+btn2	LITERAL1
+btn3	LITERAL1
